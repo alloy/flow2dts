@@ -1,4 +1,0 @@
-// @flow
-declare function deepFreezeAndThrowOnMutationInDev<T: Object>(object: T): T;
-
-declare module.exports: typeof deepFreezeAndThrowOnMutationInDev;
